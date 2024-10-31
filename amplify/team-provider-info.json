@@ -1,0 +1,56 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-informrxwebui-dev-171207-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114594469195:role/amplify-informrxwebui-dev-171207-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114594469195:role/amplify-informrxwebui-dev-171207-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-informrxwebui-dev-171207-deployment",
+      "UnauthRoleName": "amplify-informrxwebui-dev-171207-unauthRole",
+      "StackName": "amplify-informrxwebui-dev-171207",
+      "StackId": "arn:aws:cloudformation:us-west-2:114594469195:stack/amplify-informrxwebui-dev-171207/a5ff5860-42a7-11ed-9d38-02642f297cd7",
+      "AmplifyAppId": "d2pl48p8peaifp"
+    },
+    "categories": {
+      "auth": {
+        "informrxwebui24fdd661": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-systolicswebui-prod-205238-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114594469195:role/amplify-systolicswebui-prod-205238-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114594469195:role/amplify-systolicswebui-prod-205238-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-systolicswebui-prod-205238-deployment",
+      "UnauthRoleName": "amplify-systolicswebui-prod-205238-unauthRole",
+      "StackName": "amplify-systolicswebui-prod-205238",
+      "StackId": "arn:aws:cloudformation:us-east-1:114594469195:stack/amplify-systolicswebui-prod-205238/affe50a0-0fde-11ee-be4a-122dff0ad54d",
+      "AmplifyAppId": "d1dq64y087g28e"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1dq64y087g28e",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "systolicswebui6226ad7e": {
+          "userPoolId": "us-east-1_vWkphiuhT",
+          "userPoolName": "systolics-prod",
+          "webClientId": "rivebamhs4iung6cephvt3c7v",
+          "nativeClientId": "rivebamhs4iung6cephvt3c7v",
+          "identityPoolId": "us-east-1:2ed98c24-c890-44ed-908e-12e64a18e0db",
+          "identityPoolName": "systolics-prod",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::114594469195:role/amplify-informrxwebui-dev-171207-authRole",
+          "authRoleName": "amplify-informrxwebui-dev-171207-authRole",
+          "unauthRoleArn": "arn:aws:iam::114594469195:role/amplify-informrxwebui-dev-171207-unauthRole",
+          "unauthRoleName": "amplify-informrxwebui-dev-171207-unauthRole"
+        }
+      }
+    }
+  }
+}

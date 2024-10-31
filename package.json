@@ -1,0 +1,72 @@
+{
+  "name": "systolics-web-ui",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^3.5.4",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "@mui/styles": "^5.10.16",
+    "@mui/x-data-grid": "^6.2.1",
+    "@mui/x-date-pickers": "^5.0.20",
+    "@tanstack/react-query": "^4.16.1",
+    "@tanstack/react-query-devtools": "^4.16.1",
+    "@tanstack/react-table": "^8.7.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aws-amplify": "^4.3.43",
+    "axios": "^1.1.3",
+    "formik": "^2.2.9",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "notistack": "^2.0.8",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-idle-timer": "^5.4.2",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "react-signature-canvas": "^1.0.6",
+    "react-square-web-payments-sdk": "^3.2.1",
+    "react-timer-hook": "^3.0.6",
+    "react-to-print": "^2.14.12",
+    "react-virtual": "^2.10.4",
+    "recharts": "^2.6.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:dev": "amplify checkout env dev --restore && REACT_APP_SERVICE_BASE_URL=https://services.dev.systolics.net/systolics REACT_APP_SQUARE_APPLICATION_ID=sandbox-sq0idb-PR_8AAlhLpT54ZKvBhLOKA react-scripts build",
+    "build:prod": "amplify checkout env prod --restore && REACT_APP_SERVICE_BASE_URL=https://services.prod.systolics.net/systolics REACT_APP_SQUARE_APPLICATION_ID=sq0idp-F1sJDvTWuq1U8bhyfJk4kQ react-scripts build",
+    "start:dev": "amplify checkout env dev --restore && react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
